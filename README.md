@@ -4,7 +4,7 @@
 
 A [Devise](https://github.com/plataformatec/devise) extension to add additional security features required by modern web applications. Forked from [Devise Security Extension](https://github.com/phatworx/devise_security_extension)
 
-It is composed of 7 additional Devise modules:
+It is composed of 7 additional Devise modules: 
 
 - `:password_expirable` - passwords will expire after a configured time (and will need to be changed by the user). You will most likely want to use `:password_expirable` together with the `:password_archivable` module to [prevent the current expired password being reused](https://github.com/phatworx/devise_security_extension/issues/175) immediately as the new password.
 - `:secure_validatable` - better way to validate a model (email, stronger password validation). Don't use with Devise `:validatable` module!
